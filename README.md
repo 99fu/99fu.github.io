@@ -1,6 +1,6 @@
-# 码志
+# 99fu
 
-我的个人博客：<http://mazhuang.org>，欢迎 Star 和 Fork。
+我的个人博客：<http://zhangxiaofu.cn>，欢迎 Star 和 Fork。
 
 ## 概览
 
@@ -15,9 +15,9 @@
 
 ## 效果预览
 
-**[在线预览 &rarr;](http://mazhuang.org)**
+**[在线预览 &rarr;](http://zhangxiaofu.cn)**
 
-![screenshot home](http://mazhuang.org/assets/images/screenshots/home.png)
+![screenshot home](http://zhangxiaofu.cn/assets/images/screenshots/home.png)
 
 ## Fork 指南
 
@@ -72,8 +72,9 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 
 ## 致谢
 
-本博客外观基于 [DONGChuan](http://dongchuan.github.io) 修改，感谢！
+本博客外观Fork自 [码志](http://dongchuan.github.io) ，感谢！
+有兴趣修改外观的朋友 ，也可以参考 [DONGChuan](https://github.com/DONGChuan/Yummy-Jekyll) .
 
-[1]: https://github.com/mzlogin/chinese-copywriting-guidelines
+[1]: https://github.com/99fu/chinese-copywriting-guidelines
 [2]: https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/
-[3]: https://github.com/mzlogin/mzlogin.github.io/issues/2
+[3]: https://github.com/99fu/99fu.github.io/issues/2
