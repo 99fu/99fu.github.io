@@ -8,7 +8,9 @@ menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+Great minds have purpose, others have wishes.
+
+If they throw stones at you, don’t throw back, use them to build your own foundation instead.
 
 仰慕「优雅编码的艺术」。
 
