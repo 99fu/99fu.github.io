@@ -14,3 +14,4 @@ permalink: /links/
 * [只宁静不致远](http://zxning.github.io/)
 * [Blog Something](http://chenxiaoyoyo.github.io)
 * [码志](http://mazhuang.org)
+* [99fu - oschina](http://git.oschina.net/fu99)

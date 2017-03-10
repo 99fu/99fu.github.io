@@ -6,7 +6,7 @@ url: zhangxiaofu.cn
 date_format: "ordinal"
 title: 99fu
 subtitle: "Learn and live"
-description: "99fu的个人博客"
+description: "99fu的博客"
 keywords: 99fu, 99fu blog, 99fu 博客, 99fu java
 favicon: /favicon.ico
 timezone: Asia/Shanghai
@@ -17,8 +17,8 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: 99fu
-organization: Sogou, Inc.
-organization_url: https://www.sogou.com
+organization: baidu, Inc.
+organization_url: https://www.baidu.com
 location: Beijing, China
 email: zxf598@qq.com
 
