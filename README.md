@@ -18,6 +18,7 @@
 **[在线预览 &rarr;](http://zhangxiaofu.cn)**
 
 ![screenshot home](http://zhangxiaofu.cn/assets/images/screenshots/home.png)
+
 ![screenshot phone home](http://zhangxiaofu.cn/assets/images/screenshots/phone.png)
 
 
