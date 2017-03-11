@@ -18,6 +18,8 @@
 **[在线预览 &rarr;](http://zhangxiaofu.cn)**
 
 ![screenshot home](http://zhangxiaofu.cn/assets/images/screenshots/home.png)
+![screenshot phone home](http://zhangxiaofu.cn/assets/images/screenshots/phone.png)
+
 
 ## Fork 指南
 
@@ -75,6 +77,6 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 本博客外观Fork自 [码志](http://dongchuan.github.io) ，感谢！
 有兴趣修改外观的朋友 ，也可以参考 [DONGChuan](https://github.com/DONGChuan/Yummy-Jekyll) .
 
-[1]: https://github.com/99fu/chinese-copywriting-guidelines
+[1]: http://zhangxiaofu.cn/wiki/chinese-copywriting-guidelines/
 [2]: https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/
 [3]: https://github.com/99fu/99fu.github.io/issues/2
