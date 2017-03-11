@@ -1,3 +1,10 @@
+---
+layout: post
+title: markdown文档的编辑器使用
+categories: Blog
+description: markdown文档的编辑器使用说明，实用初手。
+keywords: markdown, blog
+---
 ##markdown文档的编辑器使用
 推荐一个在线编辑器：*MaHua:[@MaHua](http://mahua.jser.me)
 参考文章：http://blog.csdn.net/zhaokaiqiang1992/article/details/41349819
