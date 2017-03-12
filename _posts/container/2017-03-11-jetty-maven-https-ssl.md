@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Quick Start - Jetty's maven plugin with SSL 
-<<<<<<< HEAD
 categories: Blog
-=======
-categories: [jetty, container]
->>>>>>> parent of 35bea34... jetty https
-description: ÔËÓÃ maven ¿ìËÙ´î½¨jetty µÄ HTTPS ·şÎñ¡£
+description: è¿ç”¨ maven å¿«é€Ÿæ­å»ºjetty çš„ HTTPS æœåŠ¡ã€‚
 keywords: jetty, maven, HTTPS, container
 ---
 
@@ -16,7 +12,7 @@ Create a web application project:
 ```sh
 $ mvn archetype:generate -DgroupId=org.example -DartifactId=example-server -DarchetypeArtifactId=maven-archetype-webapp -Dversion=1.0
 ```
-This gives us a new directory (example-server) which is a Maven web application project. To run the web application, we configure the maven-jetty-plugin. Add the following configuration to project¡¯s pom.xml.
+This gives us a new directory (example-server) which is a Maven web application project. To run the web application, we configure the maven-jetty-plugin. Add the following configuration to projectâ€™s pom.xml.
 ```java
 <build>
   <finalName>example-server</finalName>
@@ -53,7 +49,7 @@ As you can see, the server is started and listens on port 8080 by default. If yo
 </plugin>
 ```
 #### Adding TLS/SSL support
-Assume you want to communicate in a secure way. The only thing you need to do is to add another connector element and specify a keystore containing the server¡¯s certificate. Simply add the following connector element and make sure the server.jks is located in your example-server directory:
+Assume you want to communicate in a secure way. The only thing you need to do is to add another connector element and specify a keystore containing the serverâ€™s certificate. Simply add the following connector element and make sure the server.jks is located in your example-server directory:
 
 ```
 <connector implementation="org.mortbay.jetty.security.SslSocketConnector">
