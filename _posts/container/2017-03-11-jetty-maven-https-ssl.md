@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quick Start - Jetty's maven plugin with SSL 
-categories: Blog
+categories: [jetty, container]
 description: 运用 maven 快速搭建jetty 的 HTTPS 服务。
 keywords: jetty, maven, HTTPS, container
 ---
