@@ -11,8 +11,8 @@ keywords: Git, 版本控制
 | 功能                      | 命令                                  |
 |:--------------------------|:--------------------------------------|
 | 添加文件/更改到暂存区     | git add filename                      |
-| 添加所有文件/更改到暂存区 | git add .                             |
-| 提交                      | git commit -m msg                     |
+| 添加所有文件/更改到暂存区 | [git add .][git add --all]                             |
+| 提交                      | git commit -m "msg"                     |
 | 从远程仓库拉取最新代码    | git pull origin master                |
 | 推送到远程仓库            | git push origin master                |
 | 查看配置信息              | git config --list                     |
@@ -272,7 +272,51 @@ git checkout -b test 5234ab
 git reset 5234ab MainActivity.java
 ```
 
+#### 恢复到指定版本
+
+```sh
+git reset --hard {版本号}
+```
+
 恢复 MainActivity.java 文件到 commit hash 为 `5234ab` 时的状态。
+
+#### 放弃对git管理的文件修改
+```
+条件：bb.txt文件已经被git管理
+过程：发现bb.txt文件被修改了，发现改了之后不是自己想要的结果
+目的：想恢复到没有被修改的状态
+解决办法：
+git checkout bb.txt
+
+git放弃对当前文件夹的所有文件的修改？
+git checkout
+```
+#### git上传文件太大
+```
+git提交失败的解决办法 
+1 提交后提示 
+fatal: recursion detected in die handler 
+问题原因： 
+问题原因是http.postBuffer默认上限为1M所致。在git的配置里将http.postBuffer变量改大一些即可，比如将上限设为500M： 
+git config --global http.postBuffer 524288000
+在哪里执行以上命令呢？ 
+打开git bash命令行工具。 
+注意要加上--global。网上很多资料都没加这个参数。不加执行的话会报以下错误的： 
+error:could not lock config file .git/config: no such file or directory.
+使用TortoiseGit
+右键TortoiseGit--settings--Git--Edit systemwide gitconfig--把postBuffer的值修改为524288000
+
+git ssh失效解决办法
+报错信息
+git.exe clone --progress -v "https://git.duapp.com/appiddfged879rf" "F:\bae\yelp" 
+
+Cloning into 'F:\bae\yelp'... 
+fatal: unable to access 'https://git.duapp.com/appiddfged879rf/': SSL certificate problem: unable to get local issuer certificate
+
+最简单的解决方法是执行下面的命令，然后重新执行 git clone 命令：
+  git config --global http.sslVerify false
+```
+
 
 #### 设置全局 hooks
 
@@ -303,4 +347,29 @@ fi
 echo "Error: you need to update from remote first"
 
 exit 1
+```
+
+
+### 示例
+#### 创建新的github仓库
+```sh
+git init
+git add README.md
+git commit -m "readme.md"
+git remote add origin "https://github.com/99fu/99fu.github.io.git"
+git push -u origin master
+```
+#### 在新的仓库中创建分支
+```
+在本地创建新的分支 git branch newbranch
+切换到新的分支 git checkout newbranch
+将新的分支推送到github git push origin newbranch
+在本地删除一个分支： git branch -d newbranch
+在github远程端删除一个分支： git push origin :newbranch (分支名前的冒号代表删除)
+```
+#### 直接使用git pull和git push的设置
+```sh
+git branch --set-upstream-to=origin/master master
+git branch --set-upstream-to=origin/ThirdParty ThirdParty
+git config --global push.default matching
 ```
