@@ -12,7 +12,7 @@ PortableJekyll 托管于github，地址为：[https://github.com/madhur/Portable
 
 ### 配制环境变量
 
-####　How to
+#### How to
 setpath.cmd file is a sample file, which contains all the content you want to put in the PATH environment variable.
 
 #### No line breaks Like this:
