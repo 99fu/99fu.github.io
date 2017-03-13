@@ -9,10 +9,14 @@ keywords: eclipse ,jetty
 ## 前言：
 Jetty 应该是目前最活跃也是很有前景的一个 Servlet 引擎。与tomcat 相比，jetty 轻量，节约服务器性能。goole已从tomcat迁移到了jetty。
  
-## 实现
+## 实现方式
 1.在eclipse 中下载jetty插件
+  help --> Eclipse Markeplace --> 输入jetty --> installed
 2.用代码实现
-须要在pom依赖中增加引用，如须新版自行修改 ![阿里maven私服](http://maven.aliyun.com/nexus)：
+ **pom**依赖中增加引用，如须新版自行修改 [阿里maven私服](http://maven.aliyun.com/nexus)。
+
+`pom.xml`
+
 ```
  <properties>
         <jetty.version>9.4.2.v20170220</jetty.version>
@@ -36,7 +40,7 @@ Jetty 应该是目前最活跃也是很有前景的一个 Servlet 引擎。与to
  	
 ```
 
-新建启动类：
+`Class 启动类：`
 ```
    
 import org.eclipse.jetty.server.Connector;
