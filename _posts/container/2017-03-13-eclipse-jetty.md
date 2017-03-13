@@ -11,8 +11,11 @@ Jetty 应该是目前最活跃也是很有前景的一个 Servlet 引擎。与to
  
 ## 实现方式
 1.在eclipse 中下载jetty插件
+
   help --> Eclipse Markeplace --> 输入jetty --> installed
+  
 2.用代码实现
+
  **pom**依赖中增加引用，如须新版自行修改 [阿里maven私服](http://maven.aliyun.com/nexus)。
 
 `pom.xml`
