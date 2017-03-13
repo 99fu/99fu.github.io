@@ -1,9 +1,9 @@
 ---
 layout: post
 title: eclipse 内置 jetty 启动
-categories: [eclipse ,jetty]
+categories: [eclipse ,jetty ,HTTPS]
 description: eclipse 开发，不安装jetty 插件，启动jetty。
-keywords: eclipse ,jetty
+keywords: eclipse ,jetty ,HTTPS
 ---
 
 ## 前言
